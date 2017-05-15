@@ -1,3 +1,6 @@
+export MODULEPATH=/share/apps/compute/modulefiles/applications:$MODULEPATH
+module load anaconda
+
 NOTEBOOK_CONFIG=~/.jupyter/jupyter_notebook_config.py
 
 # backup existing config, is any
