@@ -8,6 +8,7 @@
 ##SBATCH --reservation=SI2016D3Morning
 #SBATCH -t 02:00:00
 
+export MODULEPATH=/share/apps/compute/modulefiles/applications:$MODULEPATH
 module load anaconda
 export PYTHONPATH=/.local/lib/python3.5/site-packages/:$PYTHONPATH
 
